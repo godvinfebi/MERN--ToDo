@@ -1,0 +1,13 @@
+//curl -X POST -H "Content-Type: application/json" -d '{"item":"first"}' http://localhost:4000/api/item
+//curl -X GET  -H "Content-Type: application/json" -d '{"item":"first"}' http://localhost:4000/api/items
+
+
+curl -X PUT -H "Content-Type: application/json" -d '{"item":" updated first"}' http://localhost:4000/api/item/655cddb4bd9516bc753d0b6c
+
+
+
+# {
+# #     "item" :"updated first "
+# # }
+
+# curl -X DELETE -H "Content-Type: application/json" -d '{"item":"updated first"}' http://localhost:4000/api/item/655d823353acb88427ccd06b
